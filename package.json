@@ -1,0 +1,23 @@
+{
+  "name": "aqa-selenium-wd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Irina-Dovgyalo/aqa-selenium-wd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Irina-Dovgyalo/aqa-selenium-wd/issues"
+  },
+  "homepage": "https://github.com/Irina-Dovgyalo/aqa-selenium-wd#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  }
+}
