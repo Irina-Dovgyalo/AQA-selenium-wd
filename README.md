@@ -1,1 +1,1 @@
-# aqa-selenium-wd
+# AQA-selenium-wd
