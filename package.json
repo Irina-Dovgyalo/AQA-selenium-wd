@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Irina-Dovgyalo/aqa-selenium-wd.git"
+    "url": "git+https://github.com/Irina-Dovgyalo/AQA-selenium-wd.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Irina-Dovgyalo/aqa-selenium-wd/issues"
+    "url": "https://github.com/Irina-Dovgyalo/AQA-selenium-wd/issues"
   },
-  "homepage": "https://github.com/Irina-Dovgyalo/aqa-selenium-wd#readme",
+  "homepage": "https://github.com/Irina-Dovgyalo/AQA-selenium-wd#readme",
   "dependencies": {
     "chromedriver": "^76.0.0",
     "geckodriver": "^1.16.2",
