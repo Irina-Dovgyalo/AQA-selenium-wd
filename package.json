@@ -22,5 +22,9 @@
     "geckodriver": "^1.16.2",
     "iedriver": "^3.14.1",
     "selenium-webdriver": "^4.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "jasmine-expect": "^4.0.3"
   }
 }
