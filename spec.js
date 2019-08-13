@@ -1,46 +1,21 @@
-// + 1. Перейти на https://yandex.by/
-// 2. Задать Лондон в качестве метоположения - http://prntscr.com/i3r8wf
-// 3. Запомнить содержимое "еще" http://prntscr.com/i3r95a
-// 4. Сменить местоположение на Париж
-// 5. Сравнить содержимое "еще" для Лондона и Парижа(должно совпадать)
-
-let IndexPage = require('./page-objects/page');
-let page = new IndexPage();
+let page = require('./Page');
 
 describe('open homepage', function() {
 
-    // beforeEach(function() {
-    //     browser.waitForAngularEnabled(false);
-    //     browser.get('https://yandex.by/');
-    // })
+    it('should find and change the location', async function() {
+        await page.open();
+        await page.clickToLocation();
+        await page.changeLocation('Лондон');
+        let a = await page.clickToLinkMore();
+        await page.clickToLocation();
+        await page.changeLocation('Париж');
+        let b = await page.clickToLinkMore();
 
-    it('should find and change the location', function() {
-        page.open();
-        page.clickToLocation();
-        page.changeLocation('Лондон');
+        expect(a).toEqual(b);
+        console.log(`${a} to equal ${b}`);
+        // console.log(`element a is ${a}`);
+        // console.log(`element b is ${b}`);
     });
-
-    // it('should find and change the location', function() {
-
-    //     let location = element(by.css('.home-link.geolink.link_geosuggest_yes.home-link_black_yes'));
-    //     location.click();
-
-    //     expect(browser.getTitle()).toBe('Местоположение — Настройка Яндекса');
-
-    //     let input = element(by.css('#city__front-input'));
-    //     input.clear();
-    //     input.sendKeys('Лондон');
-    //     browser.sleep(5000);
-
-    //     let searchEl = element(by.cssContainingText('.popup__content ul li .b-autocomplete-item__reg', 'Лондон'));
-
-    //     browser.wait(searchEl, 5000).then(function(elems) {
-    //         return elems.click();
-    //     });
-
-
-    //     browser.sleep(5000);
-    // });
 
 });
 
