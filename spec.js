@@ -1,6 +1,4 @@
 
-// 5. Проверить, что текущий язык английский  
-
 let page = require('./Page');
 
 describe('Yandex homepage', function() {
