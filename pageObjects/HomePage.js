@@ -1,4 +1,4 @@
-let EC = protractor.ExpectedConditions;
+let waitForVis = require('../helpers/waitForVisible');
 
 let Page = function() {
 
@@ -10,34 +10,28 @@ let Page = function() {
 
     let more = element(by.xpath('//body/div[4]/ul/div[2]')); 
 
-    // ACTIONS: 
-
-    this.waitForVis = async function(element) {
-        await browser.wait(EC.visibilityOf(element), 5000);
-    }
-
     this.open = async function() {
         browser.waitForAngularEnabled(false);
         await browser.get('https://yandex.by/');
     }
 
     this.clickToBtnLoginEnter = async function() { 
-        await this.waitForVis(btnLoginEnter);
+        await waitForVis(btnLoginEnter);
         await btnLoginEnter.click();
     }
 
     this.clickToCheckLanguage = async function() {
-        await this.waitForVis(currentLanguage);
+        await waitForVis(currentLanguage);
         await currentLanguage.click();
     }
 
     this.clickToLanguageMore = async function() {
-        await this.waitForVis(more);
+        await waitForVis(more);
         await more.click();
     }
 
     this.checkCurrentLanguage = async function() {
-        await this.waitForVis(currentLanguage);
+        await waitForVis(currentLanguage);
         return currentLanguage.getText();
     }
 

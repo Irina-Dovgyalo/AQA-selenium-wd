@@ -1,10 +1,10 @@
 
-let page = require('./HomePage');
-let loginPage = require('./LoginPage');
-let passwordPage = require('./PasswordPage');
-let userPage = require('./UserPage');
-let navigationPage = require('./NavigationPage');
-let languagePage = require('./LanguagePage');
+let page = require('../pageObjects/HomePage');
+let loginPage = require('../pageObjects/LoginPage');
+let passwordPage = require('../pageObjects/PasswordPage');
+let userPage = require('../pageObjects/UserPage');
+let navigationPage = require('../pageObjects/NavigationPage');
+let languagePage = require('../pageObjects/LanguagePage');
 
 describe('Yandex homepage', function() {
 
@@ -32,7 +32,8 @@ describe('Yandex homepage', function() {
             await passwordPage.clickToBtnSubmit();
             await userPage.getUserName();
             await userPage.clickToUserName();
-            let currentURL = await userPage.clickToBtnLogout();
+            await userPage.clickToBtnLogout(); 
+            let currentURL = await userPage.getCurrentURL(); 
     
             expect(currentURL).toEqual('https://yandex.by/');
             console.log(currentURL);
@@ -45,10 +46,10 @@ describe('Yandex homepage', function() {
             await loginPage.clickToBtnSubmit();
             await passwordPage.enterPassword('NoAutotestUser123');
             await passwordPage.clickToBtnSubmit();
-            let errorPassword = await passwordPage.showMessageError();
+            let errorMsgPassword = await passwordPage.showMessageError(); 
     
-            expect(errorPassword).toEqual('Неверный пароль');
-            console.log(errorPassword);
+            expect(errorMsgPassword).toEqual('Неверный пароль');
+            console.log(errorMsgPassword);
         });
     
         it('should warn on invalid login', async function() {
@@ -56,10 +57,10 @@ describe('Yandex homepage', function() {
             await page.clickToBtnLoginEnter();
             await loginPage.enterLogin('NoAutotestUser');
             await loginPage.clickToBtnSubmit();
-            let errorLogin = await loginPage.showMessageError();
+            let errorMsgAccaunt = await loginPage.showMessageError(); 
     
-            expect(errorLogin).toEqual('Такого аккаунта нет');
-            console.log(errorLogin);
+            expect(errorMsgAccaunt).toEqual('Такого аккаунта нет');
+            console.log(errorMsgAccaunt);
         });
     });
 
@@ -67,40 +68,46 @@ describe('Yandex homepage', function() {
 
         it('should redirect by links', async function() {
             await page.open();
-            let img = await navigationPage.clickToLinkImages();
+            await navigationPage.clickToLinkImages();
+            let imagesTitle = await navigationPage.getCurrentTitle();
             
-            expect(img).toEqual('Яндекс.Картинки: поиск изображений в интернете, поиск по картинке')
-            console.log(img);
+            expect(imagesTitle).toEqual('Яндекс.Картинки: поиск изображений в интернете, поиск по картинке')
+            console.log(imagesTitle);
 
             await page.open();
-            let news = await navigationPage.clickToLinkNews();
+            await navigationPage.clickToLinkNews();
+            let newsTitle = await navigationPage.getCurrentTitle();
             
-            expect(news).toEqual('Яндекс.Новости: Главные новости сегодня, самые свежие и последние новости Беларуси онлайн')
-            console.log(news);
+            expect(newsTitle).toEqual('Яндекс.Новости: Главные новости сегодня, самые свежие и последние новости Беларуси онлайн')
+            console.log(newsTitle);
 
             await page.open();
-            let maps = await navigationPage.clickToLinkMaps();
+            await navigationPage.clickToLinkMaps();
+            let mapsTitle = await navigationPage.getCurrentTitle();
             
-            expect(maps).toEqual('Яндекс.Карты — подробная карта Беларуси и мира')
-            console.log(maps);
+            expect(mapsTitle).toEqual('Яндекс.Карты — подробная карта Беларуси и мира')
+            console.log(mapsTitle);
 
             await page.open();
-            let market = await navigationPage.clickToLinkMarket();
+            await navigationPage.clickToLinkMarket();
+            let marketTitle = await navigationPage.getCurrentTitle();
             
-            expect(market).toEqual('Яндекс.Маркет — выбор и покупка товаров из проверенных интернет-магазинов')
-            console.log(market);
+            expect(marketTitle).toEqual('Яндекс.Маркет — выбор и покупка товаров из проверенных интернет-магазинов')
+            console.log(marketTitle);
 
             await page.open();
-            let translate = await navigationPage.clickToLinkTranslate();
+            await navigationPage.clickToLinkTranslate();
+            let translateTitle = await navigationPage.getCurrentTitle();
             
-            expect(translate).toEqual('Яндекс.Переводчик – словарь и онлайн перевод на английский, русский, немецкий, французский, украинский и другие языки.')
-            console.log(translate);
+            expect(translateTitle).toEqual('Яндекс.Переводчик – словарь и онлайн перевод на английский, русский, немецкий, французский, украинский и другие языки.')
+            console.log(translateTitle);
 
             await page.open();
-            let music = await navigationPage.clickToLinkMusic();
+            await navigationPage.clickToLinkMusic();
+            let musicTitle = await navigationPage.getCurrentTitle();
             
-            expect(music).toEqual('Яндекс.Музыка')
-            console.log(music);
+            expect(musicTitle).toEqual('Яндекс.Музыка')
+            console.log(musicTitle);
         });
 
     });

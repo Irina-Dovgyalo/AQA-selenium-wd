@@ -1,4 +1,4 @@
-let EC = protractor.ExpectedConditions;
+let waitForVis = require('../helpers/waitForVisible');
 
 let LanguagePage = function() {
 
@@ -7,23 +7,19 @@ let LanguagePage = function() {
     let selectLanguage = element(by.cssContainingText('.select__item', 'English')); 
     let btnSave = element(by.css('.form__save'));
 
-    this.waitForVis = async function(element) {
-        await browser.wait(EC.visibilityOf(element), 5000);
-    }
-
     this.clickToBtnLanguage = async function() {
-        await this.waitForVis(btnLanguage);
+        await waitForVis(btnLanguage);
         await btnLanguage.click();
     }
 
     this.changeLanguage = async function() {
-        await this.waitForVis(selectOptions);
-        await this.waitForVis(selectLanguage);
+        await waitForVis(selectOptions);
+        await waitForVis(selectLanguage);
         await selectLanguage.click();
     }
 
     this.clickToBtnSave = async function() {
-        await this.waitForVis(btnSave);
+        await waitForVis(btnSave);
         await btnSave.click();
     }
 

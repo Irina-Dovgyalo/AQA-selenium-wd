@@ -1,4 +1,5 @@
-let EC = protractor.ExpectedConditions;
+let waitForVis = require('../helpers/waitForVisible');
+let currentTitle = require('../helpers/returnCurrentTitle');
 
 let NavigationPage = function() {
 
@@ -9,44 +10,38 @@ let NavigationPage = function() {
     let translate = element(by.linkText('Переводчик')); 
     let music = element(by.linkText('Музыка'));
 
-    this.waitForVis = async function(element) {
-        await browser.wait(EC.visibilityOf(element), 5000);
-    }
-
     this.clickToLinkImages = async function() {
-        await this.waitForVis(images);
+        await waitForVis(images);
         await images.click();
-        return browser.getTitle();
     }
 
     this.clickToLinkNews = async function() {
-        await this.waitForVis(news);
+        await waitForVis(news);
         await news.click();
-        return browser.getTitle();
     }
 
     this.clickToLinkMaps = async function() {
-        await this.waitForVis(maps);
+        await waitForVis(maps);
         await maps.click();
-        return browser.getTitle();
     }
 
     this.clickToLinkMarket = async function() {
-        await this.waitForVis(market);
+        await waitForVis(market);
         await market.click();
-        return browser.getTitle();
     }
 
     this.clickToLinkTranslate = async function() {
-        await this.waitForVis(translate);
+        await waitForVis(translate);
         await translate.click();
-        return browser.getTitle();
     }
 
     this.clickToLinkMusic = async function() {
-        await this.waitForVis(music);
+        await waitForVis(music);
         await music.click();
-        return browser.getTitle();
+    }
+
+    this.getCurrentTitle = async function() {
+        return currentTitle();
     }
 
 }
