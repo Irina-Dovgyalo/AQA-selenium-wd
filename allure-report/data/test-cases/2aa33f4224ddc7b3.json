@@ -1,0 +1,48 @@
+{
+  "uid" : "2aa33f4224ddc7b3",
+  "name" : "should warn on invalid password",
+  "fullName" : "Yandex homepage Yandex - mail.should warn on invalid password",
+  "historyId" : "e531e33c10ac1dbdbfbd8f9a5fd15395",
+  "time" : {
+    "start" : 1566201952874,
+    "stop" : 1566201952874,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test was ignored",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Yandex homepage Yandex - mail"
+  }, {
+    "name" : "testClass",
+    "value" : "Yandex homepage Yandex - mail"
+  }, {
+    "name" : "testMethod",
+    "value" : "should warn on invalid password"
+  }, {
+    "name" : "package",
+    "value" : "Yandex homepage Yandex - mail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2aa33f4224ddc7b3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Yandex homepage Yandex - mail",
+    "children" : [ {
+      "name" : "should redirect to the login page",
+      "uid" : "c1e5a9ea8c195a1",
+      "parentUid" : "fb6260a3d64477cd10b50b294e8e5704",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1566201952871,
+        "stop" : 1566201952873,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should return to the home page after logout",
+      "uid" : "223cf834aa5bed0e",
+      "parentUid" : "fb6260a3d64477cd10b50b294e8e5704",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1566201952873,
+        "stop" : 1566201952874,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should warn on invalid password",
+      "uid" : "2aa33f4224ddc7b3",
+      "parentUid" : "fb6260a3d64477cd10b50b294e8e5704",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1566201952874,
+        "stop" : 1566201952874,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should warn on invalid login",
+      "uid" : "640ece3d44a719c7",
+      "parentUid" : "fb6260a3d64477cd10b50b294e8e5704",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1566201952874,
+        "stop" : 1566201952874,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fb6260a3d64477cd10b50b294e8e5704"
+  }, {
+    "name" : "Yandex homepage Yandex - navigation",
+    "children" : [ {
+      "name" : "should redirect by links",
+      "uid" : "7a8826a8c0f14087",
+      "parentUid" : "31c9b24541a8edd8e0281db8b7e61628",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1566201952886,
+        "stop" : 1566201952886,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "31c9b24541a8edd8e0281db8b7e61628"
+  }, {
+    "name" : "Yandex homepage Yandex - change language",
+    "children" : [ {
+      "name" : "Should change language",
+      "uid" : "a1829c435dd82b21",
+      "parentUid" : "a52f8251efc5e3d7e2a4542588d4fee2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1566201952919,
+        "stop" : 1566201959446,
+        "duration" : 6527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a52f8251efc5e3d7e2a4542588d4fee2"
+  } ]
+}

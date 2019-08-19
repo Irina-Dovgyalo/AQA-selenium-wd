@@ -4,7 +4,9 @@
   "description": "",
   "main": "conf.js",
   "scripts": {
-    "test": "protractor conf.js"
+    "pretest": "rm -rf allure-report",
+    "test": "protractor conf.js",
+    "report": "allure generate allure-results --clean -o allure-report || true"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,14 @@
     "chromedriver": "^76.0.0",
     "geckodriver": "^1.16.2",
     "iedriver": "^3.14.1",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine2-protractor-utils": "^1.3.0",
+    "protractor-html-reporter": "^1.3.2",
+    "protractor-html-reporter-2": "^1.0.4",
     "selenium-webdriver": "^4.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.9.0"
   }
 }

@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "a52f8251efc5e3d7e2a4542588d4fee2",
+    "name" : "Yandex homepage Yandex - change language",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fb6260a3d64477cd10b50b294e8e5704",
+    "name" : "Yandex homepage Yandex - mail",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "31c9b24541a8edd8e0281db8b7e61628",
+    "name" : "Yandex homepage Yandex - navigation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -8,7 +8,7 @@ let languagePage = require('../pageObjects/LanguagePage');
 
 describe('Yandex homepage', function() {
 
-    describe('Yandex - mail', function() {
+    xdescribe('Yandex - mail', function() {
 
         it('should redirect to the login page', async function() {
             await page.open();
@@ -64,7 +64,7 @@ describe('Yandex homepage', function() {
         });
     });
 
-    describe('Yandex - navigation', function(){
+    xdescribe('Yandex - navigation', function(){
 
         it('should redirect by links', async function() {
             await page.open();
@@ -112,7 +112,7 @@ describe('Yandex homepage', function() {
 
     });
 
-    fdescribe('Yandex - change language', function() {
+    describe('Yandex - change language', function() {
 
         it('Should change language', async function() {
             await page.open();

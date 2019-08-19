@@ -1,0 +1,70 @@
+{
+  "uid" : "a1829c435dd82b21",
+  "name" : "Should change language",
+  "fullName" : "Yandex homepage Yandex - change language.Should change language",
+  "historyId" : "fae45582e8c96debdfbf095f72a7966c",
+  "time" : {
+    "start" : 1566201952919,
+    "stop" : 1566201959446,
+    "duration" : 6527
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected 'Rus' to equal 'Eng'.",
+  "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (D:\\QA\\aqa-selenium-wd\\tests\\spec.js:127:30)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected 'Rus' to equal 'Eng'.",
+    "statusTrace" : "Error: Failed expectation\n                    at UserContext.<anonymous> (D:\\QA\\aqa-selenium-wd\\tests\\spec.js:127:30)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8cc3c5415b67d7f",
+      "name" : "Screenshot",
+      "source" : "8cc3c5415b67d7f.png",
+      "type" : "image/png",
+      "size" : 277005
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Yandex homepage Yandex - change language"
+  }, {
+    "name" : "testClass",
+    "value" : "Yandex homepage Yandex - change language"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should change language"
+  }, {
+    "name" : "package",
+    "value" : "Yandex homepage Yandex - change language"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a1829c435dd82b21.json",
+  "parameterValues" : [ ]
+}

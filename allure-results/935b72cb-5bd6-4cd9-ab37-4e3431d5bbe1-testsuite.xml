@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566201952871' stop='1566201952874'>
+    <name>Yandex homepage Yandex - mail</name>
+    <title>Yandex homepage Yandex - mail</title>
+    <test-cases>
+        <test-case start='1566201952871' status='pending' stop='1566201952873'>
+            <name>should redirect to the login page</name>
+            <title>should redirect to the login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566201952873' status='pending' stop='1566201952874'>
+            <name>should return to the home page after logout</name>
+            <title>should return to the home page after logout</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566201952874' status='pending' stop='1566201952874'>
+            <name>should warn on invalid password</name>
+            <title>should warn on invalid password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566201952874' status='pending' stop='1566201952874'>
+            <name>should warn on invalid login</name>
+            <title>should warn on invalid login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

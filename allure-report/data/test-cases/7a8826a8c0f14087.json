@@ -1,0 +1,48 @@
+{
+  "uid" : "7a8826a8c0f14087",
+  "name" : "should redirect by links",
+  "fullName" : "Yandex homepage Yandex - navigation.should redirect by links",
+  "historyId" : "71b4e3ae7ba673a0a2a10f7a16d393c1",
+  "time" : {
+    "start" : 1566201952886,
+    "stop" : 1566201952886,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test was ignored",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Yandex homepage Yandex - navigation"
+  }, {
+    "name" : "testClass",
+    "value" : "Yandex homepage Yandex - navigation"
+  }, {
+    "name" : "testMethod",
+    "value" : "should redirect by links"
+  }, {
+    "name" : "package",
+    "value" : "Yandex homepage Yandex - navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a8826a8c0f14087.json",
+  "parameterValues" : [ ]
+}
