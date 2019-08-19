@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="5" errors="0" failures="0" tests="6" time="58.565">
- <testsuite name="Yandex homepage" timestamp="2019-08-19T11:49:24" hostname="localhost" time="29.284" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+<testsuites disabled="5" errors="0" failures="0" tests="6" time="19.486">
+ <testsuite name="Yandex homepage" timestamp="2019-08-19T12:33:30" hostname="localhost" time="9.744" errors="0" tests="0" skipped="0" disabled="0" failures="0">
  </testsuite>
- <testsuite name="Yandex homepage.Yandex - mail" timestamp="2019-08-19T11:49:24" hostname="localhost" time="0.011" errors="0" tests="4" skipped="0" disabled="4" failures="0">
-  <testcase classname="Yandex homepage.Yandex - mail" name="should redirect to the login page" time="0.001">
-   <skipped />
-  </testcase>
-  <testcase classname="Yandex homepage.Yandex - mail" name="should return to the home page after logout" time="0">
+ <testsuite name="Yandex homepage.Yandex - mail" timestamp="2019-08-19T12:33:30" hostname="localhost" time="9.739" errors="0" tests="4" skipped="0" disabled="3" failures="0">
+  <testcase classname="Yandex homepage.Yandex - mail" name="should return to the home page after logout" time="9.73" />
+  <testcase classname="Yandex homepage.Yandex - mail" name="should redirect to the login page" time="0">
    <skipped />
   </testcase>
   <testcase classname="Yandex homepage.Yandex - mail" name="should warn on invalid password" time="0">
    <skipped />
   </testcase>
-  <testcase classname="Yandex homepage.Yandex - mail" name="should warn on invalid login" time="0">
+  <testcase classname="Yandex homepage.Yandex - mail" name="should warn on invalid login" time="0.001">
    <skipped />
   </testcase>
  </testsuite>
- <testsuite name="Yandex homepage.Yandex - navigation" timestamp="2019-08-19T11:49:24" hostname="localhost" time="29.269" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Yandex homepage.Yandex - navigation" name="should redirect by links" time="29.266" />
+ <testsuite name="Yandex homepage.Yandex - navigation" timestamp="2019-08-19T12:33:39" hostname="localhost" time="0.002" errors="0" tests="1" skipped="0" disabled="1" failures="0">
+  <testcase classname="Yandex homepage.Yandex - navigation" name="should redirect by links" time="0.001">
+   <skipped />
+  </testcase>
  </testsuite>
- <testsuite name="Yandex homepage.Yandex - change language" timestamp="2019-08-19T11:49:53" hostname="localhost" time="0.001" errors="0" tests="1" skipped="0" disabled="1" failures="0">
+ <testsuite name="Yandex homepage.Yandex - change language" timestamp="2019-08-19T12:33:39" hostname="localhost" time="0.001" errors="0" tests="1" skipped="0" disabled="1" failures="0">
   <testcase classname="Yandex homepage.Yandex - change language" name="Should change language" time="0">
    <skipped />
   </testcase>

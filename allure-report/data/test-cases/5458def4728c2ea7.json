@@ -1,11 +1,11 @@
 {
-  "uid" : "f7ff96d0648707a1",
-  "name" : "Should change language",
-  "fullName" : "Yandex homepage Yandex - change language.Should change language",
-  "historyId" : "fae45582e8c96debdfbf095f72a7966c",
+  "uid" : "5458def4728c2ea7",
+  "name" : "should redirect to the login page",
+  "fullName" : "Yandex homepage Yandex - mail.should redirect to the login page",
+  "historyId" : "a56dd7dd38c7d62d9f898dcf8e250fb2",
   "time" : {
-    "start" : 1566204593812,
-    "stop" : 1566204593812,
+    "start" : 1566207219764,
+    "stop" : 1566207219764,
     "duration" : 0
   },
   "description" : "",
@@ -19,16 +19,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Yandex homepage Yandex - change language"
+    "value" : "Yandex homepage Yandex - mail"
   }, {
     "name" : "testClass",
-    "value" : "Yandex homepage Yandex - change language"
+    "value" : "Yandex homepage Yandex - mail"
   }, {
     "name" : "testMethod",
-    "value" : "Should change language"
+    "value" : "should redirect to the login page"
   }, {
     "name" : "package",
-    "value" : "Yandex homepage Yandex - change language"
+    "value" : "Yandex homepage Yandex - mail"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f7ff96d0648707a1.json",
+  "source" : "5458def4728c2ea7.json",
   "parameterValues" : [ ]
 }

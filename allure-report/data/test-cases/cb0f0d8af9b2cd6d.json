@@ -1,11 +1,11 @@
 {
-  "uid" : "d462d44763c4c358",
+  "uid" : "cb0f0d8af9b2cd6d",
   "name" : "should warn on invalid password",
   "fullName" : "Yandex homepage Yandex - mail.should warn on invalid password",
   "historyId" : "e531e33c10ac1dbdbfbd8f9a5fd15395",
   "time" : {
-    "start" : 1566204564533,
-    "stop" : 1566204564533,
+    "start" : 1566207219764,
+    "stop" : 1566207219764,
     "duration" : 0
   },
   "description" : "",
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d462d44763c4c358.json",
+  "source" : "cb0f0d8af9b2cd6d.json",
   "parameterValues" : [ ]
 }

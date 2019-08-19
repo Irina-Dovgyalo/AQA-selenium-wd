@@ -1,12 +1,12 @@
 {
-  "uid" : "b8dec65413ff0d68",
-  "name" : "should redirect to the login page",
-  "fullName" : "Yandex homepage Yandex - mail.should redirect to the login page",
-  "historyId" : "a56dd7dd38c7d62d9f898dcf8e250fb2",
+  "uid" : "728f2eb3fdb6c0d6",
+  "name" : "should redirect by links",
+  "fullName" : "Yandex homepage Yandex - navigation.should redirect by links",
+  "historyId" : "71b4e3ae7ba673a0a2a10f7a16d393c1",
   "time" : {
-    "start" : 1566204564531,
-    "stop" : 1566204564532,
-    "duration" : 1
+    "start" : 1566207219773,
+    "stop" : 1566207219773,
+    "duration" : 0
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,16 +19,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Yandex homepage Yandex - mail"
+    "value" : "Yandex homepage Yandex - navigation"
   }, {
     "name" : "testClass",
-    "value" : "Yandex homepage Yandex - mail"
+    "value" : "Yandex homepage Yandex - navigation"
   }, {
     "name" : "testMethod",
-    "value" : "should redirect to the login page"
+    "value" : "should redirect by links"
   }, {
     "name" : "package",
-    "value" : "Yandex homepage Yandex - mail"
+    "value" : "Yandex homepage Yandex - navigation"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b8dec65413ff0d68.json",
+  "source" : "728f2eb3fdb6c0d6.json",
   "parameterValues" : [ ]
 }

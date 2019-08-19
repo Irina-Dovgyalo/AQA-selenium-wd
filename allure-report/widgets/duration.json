@@ -1,61 +1,61 @@
 [ {
-  "uid" : "f7ff96d0648707a1",
-  "name" : "Should change language",
-  "time" : {
-    "start" : 1566204593812,
-    "stop" : 1566204593812,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "8766d0d40b3b113e",
-  "name" : "should redirect by links",
-  "time" : {
-    "start" : 1566204564543,
-    "stop" : 1566204593809,
-    "duration" : 29266
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "801ae700de4d8552",
+  "uid" : "15b6601662aea741",
   "name" : "should warn on invalid login",
   "time" : {
-    "start" : 1566204564533,
-    "stop" : 1566204564533,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "3842567cdf49e874",
-  "name" : "should return to the home page after logout",
-  "time" : {
-    "start" : 1566204564533,
-    "stop" : 1566204564533,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b8dec65413ff0d68",
-  "name" : "should redirect to the login page",
-  "time" : {
-    "start" : 1566204564531,
-    "stop" : 1566204564532,
+    "start" : 1566207219764,
+    "stop" : 1566207219765,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "d462d44763c4c358",
-  "name" : "should warn on invalid password",
+  "uid" : "5458def4728c2ea7",
+  "name" : "should redirect to the login page",
   "time" : {
-    "start" : 1566204564533,
-    "stop" : 1566204564533,
+    "start" : 1566207219764,
+    "stop" : 1566207219764,
     "duration" : 0
   },
   "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7affae49b709af7e",
+  "name" : "Should change language",
+  "time" : {
+    "start" : 1566207219775,
+    "stop" : 1566207219775,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cb0f0d8af9b2cd6d",
+  "name" : "should warn on invalid password",
+  "time" : {
+    "start" : 1566207219764,
+    "stop" : 1566207219764,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "728f2eb3fdb6c0d6",
+  "name" : "should redirect by links",
+  "time" : {
+    "start" : 1566207219773,
+    "stop" : 1566207219773,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4819fa43f3fd3213",
+  "name" : "should return to the home page after logout",
+  "time" : {
+    "start" : 1566207210034,
+    "stop" : 1566207219763,
+    "duration" : 9729
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

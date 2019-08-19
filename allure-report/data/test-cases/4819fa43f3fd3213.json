@@ -1,12 +1,12 @@
 {
-  "uid" : "8766d0d40b3b113e",
-  "name" : "should redirect by links",
-  "fullName" : "Yandex homepage Yandex - navigation.should redirect by links",
-  "historyId" : "71b4e3ae7ba673a0a2a10f7a16d393c1",
+  "uid" : "4819fa43f3fd3213",
+  "name" : "should return to the home page after logout",
+  "fullName" : "Yandex homepage Yandex - mail.should return to the home page after logout",
+  "historyId" : "1388ba587455daed7f760b6cf7c6af9e",
   "time" : {
-    "start" : 1566204564543,
-    "stop" : 1566204593809,
-    "duration" : 29266
+    "start" : 1566207210034,
+    "stop" : 1566207219763,
+    "duration" : 9729
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "44748becb2d2584e",
+      "uid" : "f57c44ceaa75fcb0",
       "name" : "Screenshot",
-      "source" : "44748becb2d2584e.png",
+      "source" : "f57c44ceaa75fcb0.png",
       "type" : "image/png",
-      "size" : 71162
+      "size" : 302284
     } ],
     "parameters" : [ ],
     "hasContent" : true,
@@ -33,16 +33,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "Yandex homepage Yandex - navigation"
+    "value" : "Yandex homepage Yandex - mail"
   }, {
     "name" : "testClass",
-    "value" : "Yandex homepage Yandex - navigation"
+    "value" : "Yandex homepage Yandex - mail"
   }, {
     "name" : "testMethod",
-    "value" : "should redirect by links"
+    "value" : "should return to the home page after logout"
   }, {
     "name" : "package",
-    "value" : "Yandex homepage Yandex - navigation"
+    "value" : "Yandex homepage Yandex - mail"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -57,6 +57,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8766d0d40b3b113e.json",
+  "source" : "4819fa43f3fd3213.json",
   "parameterValues" : [ ]
 }
