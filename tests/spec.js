@@ -10,7 +10,7 @@ describe('Yandex homepage', function() {
 
     describe('Yandex - mail', function() {
 
-        it('should redirect to the login page', async function() {
+        fit('should redirect to the login page', async function() {
             await page.open();
             await page.clickToBtnLoginEnter();
             await loginPage.enterLogin('AutotestUser');
@@ -23,7 +23,7 @@ describe('Yandex homepage', function() {
             console.log(userName);
         });
     
-        fit('should return to the home page after logout', async function() {
+        it('should return to the home page after logout', async function() {
             await page.open();
             await page.clickToBtnLoginEnter();
             await loginPage.enterLogin('AutotestUser');
