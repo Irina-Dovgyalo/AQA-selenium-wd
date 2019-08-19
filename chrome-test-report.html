@@ -180,10 +180,10 @@ th {
         <div class="navbar-header">
           <div class="project-name visible-md visible-lg">Test Execution Report</div>
           <div class="label-container">
-            <span class="label label-success" title=TestCases>Passed: 6</span>
-            <span class="label label-danger" title=TestCases>Failed: 0</span>
+            <span class="label label-success" title=TestCases>Passed: 5</span>
+            <span class="label label-danger" title=TestCases>Failed: 1</span>
             <span class="label label-warning" title=TestCases>Skipped: 0</span>
-            <span class="label label-info">Time Elapsed: 0h 0min 22s</span>
+            <span class="label label-info">Time Elapsed: 0h 0min 26s</span>
           </div>
         </div>
       </div>
@@ -193,7 +193,7 @@ th {
 
     <!--<div class="generated-on"><b>Platform:</b> </div>-->
     <div class="info"><b>Browser:</b> chrome 76.0.3809.100</div>
-    <div class="info"><b>Generated on:</b> 2019-8-19 12:33:27</div>
+    <div class="info"><b>Generated on:</b> 2019-8-19 13:37:54</div>
 
 
       <div class="row">
@@ -259,15 +259,15 @@ th {
                     <h4 class="panel-title">
                       <a data-toggle="collapse" href="#collapseTestCase1_0">
                         
-                          <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+                          <span class="label label-warning"><i class="glyphicon glyphicon-minus"></i></span>
                         
 
-                        <font color="green"><b>TestCase:</b>should return to the home page after logout</font>
                         
+                        <font color="orange"><b>TestCase:</b>should redirect to the login page</font>
                         
                         <span class="label-container">
-                          <span class="label label-success" title="Passed">Passed</span>
                           
+                          <span class="label label-warning" title="Skipped">Skipped</span>
                           
                       </a>
                     </h4>
@@ -277,13 +277,6 @@ th {
                     <div class="panel-body">
                       <p class="scenario-container">
                         
-                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
-                          <font color="black">Time elapsed: 10 seconds</font>
-
-                          
-
-                          
-                      
                       </p>
                     </div>
                   </div>
@@ -299,7 +292,7 @@ th {
                         
 
                         
-                        <font color="orange"><b>TestCase:</b>should redirect to the login page</font>
+                        <font color="orange"><b>TestCase:</b>should return to the home page after logout</font>
                         
                         <span class="label-container">
                           
@@ -451,12 +444,13 @@ th {
       <h4 class="panel-title">
           <a data-toggle="collapse" href="#collapseSuite3">
           
-            <span class="label label-success"><i class="glyphicon glyphicon-ok"></i></span>
+            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
           
-          <font color="green"><b>TestSuite:</b>Yandex homepage.Yandex - change language</font>
+          <font color="red"><b>TestSuite:</b>Yandex homepage.Yandex - change language</font>
+          
           <span class="label-container">
-            <span class="label label-success">1</span>
             
+            <span class="label label-danger">1</span>
             
             
           </span>
@@ -471,16 +465,16 @@ th {
                     <h4 class="panel-title">
                       <a data-toggle="collapse" href="#collapseTestCase3_0">
                         
-                          <span class="label label-warning"><i class="glyphicon glyphicon-minus"></i></span>
+                          <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
                         
 
                         
-                        <font color="orange"><b>TestCase:</b>Should change language</font>
                         
+                        <font color="red"><b>TestCase:</b>Should change language</font>
                         <span class="label-container">
                           
-                          <span class="label label-warning" title="Skipped">Skipped</span>
                           
+                          <span class="label label-danger" title="Failed">Failed</span>
                       </a>
                     </h4>
                   </div>
@@ -489,6 +483,24 @@ th {
                     <div class="panel-body">
                       <p class="scenario-container">
                         
+                          <span class="label label-primary" title="Success"><i class="glyphicon glyphicon-time"></i></span>
+                          <font color="black">Time elapsed: 12 seconds</font>
+
+                          
+                            <br />
+                            <span class="label label-danger"><i class="glyphicon glyphicon-remove"></i></span>
+                            <font color="red">Expected 'Rus' to equal 'Eng'.</font>
+                          
+
+                          
+                            <br />
+                            <span class="label label-primary"><i class="glyphicon glyphicon-camera"></i></span>
+                              Screenshot on failure:
+                            <a class="screenshot" href="./screenshots/chrome-Yandex homepage.Yandex - change language Should change language.png" data-lightbox="chrome-Yandex homepage.Yandex - change language Should change language.png">
+                              <img src="./screenshots/chrome-Yandex homepage.Yandex - change language Should change language.png" style="width:100%;height:100%" alt="Screenshot not found: ./screenshots/chrome-Yandex homepage.Yandex - change language Should change language.png"/>
+                            </a>
+                        
+                      
                       </p>
                     </div>
                   </div>
@@ -529,16 +541,16 @@ th {
       google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(function() {drawChart({
                                                               "title": "TestSuites",
-                                                              "passed": 4,
-                                                              "failed": 0,
+                                                              "passed": 3,
+                                                              "failed": 1,
         })
       });
       google.charts.setOnLoadCallback(function() {drawChart({
                                                               "title": "TestCases",
-                                                              "passed": 6,
+                                                              "passed": 5,
                                                               "skipped": 0,
                                                               "errors": 0,
-                                                              "failed": 0
+                                                              "failed": 1
         })
       });
 

@@ -1,19 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566207210034' stop='1566207219765'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566211081094' stop='1566211081096'>
     <name>Yandex homepage Yandex - mail</name>
     <title>Yandex homepage Yandex - mail</title>
     <test-cases>
-        <test-case start='1566207210034' status='passed' stop='1566207219763'>
-            <name>should return to the home page after logout</name>
-            <title>should return to the home page after logout</title>
-            <labels/>
-            <parameters/>
-            <steps/>
-            <attachments>
-                <attachment title='Screenshot' source='a8f52330-c3cc-411a-a1ab-adbea69a6f14-attachment.png' type='image/png' size='302284'/>
-            </attachments>
-        </test-case>
-        <test-case start='1566207219764' status='pending' stop='1566207219764'>
+        <test-case start='1566211081094' status='pending' stop='1566211081095'>
             <name>should redirect to the login page</name>
             <title>should redirect to the login page</title>
             <labels/>
@@ -25,7 +15,19 @@
                 <stack-trace></stack-trace>
             </failure>
         </test-case>
-        <test-case start='1566207219764' status='pending' stop='1566207219764'>
+        <test-case start='1566211081096' status='pending' stop='1566211081096'>
+            <name>should return to the home page after logout</name>
+            <title>should return to the home page after logout</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1566211081096' status='pending' stop='1566211081096'>
             <name>should warn on invalid password</name>
             <title>should warn on invalid password</title>
             <labels/>
@@ -37,7 +39,7 @@
                 <stack-trace></stack-trace>
             </failure>
         </test-case>
-        <test-case start='1566207219764' status='pending' stop='1566207219765'>
+        <test-case start='1566211081096' status='pending' stop='1566211081096'>
             <name>should warn on invalid login</name>
             <title>should warn on invalid login</title>
             <labels/>

@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Mon Aug 19 12:33:39 GMT+03:00 2019","Mon Aug 19 12:33:39 GMT+03:00 2019","1","","Yandex homepage Yandex - mail","","Yandex homepage Yandex - mail","should warn on invalid login","should warn on invalid login",""
-"skipped","Mon Aug 19 12:33:39 GMT+03:00 2019","Mon Aug 19 12:33:39 GMT+03:00 2019","0","","Yandex homepage Yandex - mail","","Yandex homepage Yandex - mail","should redirect to the login page","should redirect to the login page",""
-"skipped","Mon Aug 19 12:33:39 GMT+03:00 2019","Mon Aug 19 12:33:39 GMT+03:00 2019","0","","Yandex homepage Yandex - change language","","Yandex homepage Yandex - change language","Should change language","Should change language",""
-"skipped","Mon Aug 19 12:33:39 GMT+03:00 2019","Mon Aug 19 12:33:39 GMT+03:00 2019","0","","Yandex homepage Yandex - mail","","Yandex homepage Yandex - mail","should warn on invalid password","should warn on invalid password",""
-"skipped","Mon Aug 19 12:33:39 GMT+03:00 2019","Mon Aug 19 12:33:39 GMT+03:00 2019","0","","Yandex homepage Yandex - navigation","","Yandex homepage Yandex - navigation","should redirect by links","should redirect by links",""
-"passed","Mon Aug 19 12:33:30 GMT+03:00 2019","Mon Aug 19 12:33:39 GMT+03:00 2019","9729","","Yandex homepage Yandex - mail","","Yandex homepage Yandex - mail","should return to the home page after logout","should return to the home page after logout",""

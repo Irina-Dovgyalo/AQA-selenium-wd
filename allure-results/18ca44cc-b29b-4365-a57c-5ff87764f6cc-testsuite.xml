@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566207219773' stop='1566207219774'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566211081157' stop='1566211081157'>
     <name>Yandex homepage Yandex - navigation</name>
     <title>Yandex homepage Yandex - navigation</title>
     <test-cases>
-        <test-case start='1566207219773' status='pending' stop='1566207219773'>
+        <test-case start='1566211081157' status='pending' stop='1566211081157'>
             <name>should redirect by links</name>
             <title>should redirect by links</title>
             <labels/>
