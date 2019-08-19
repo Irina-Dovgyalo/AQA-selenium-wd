@@ -64,7 +64,7 @@ describe('Yandex homepage', function() {
         });
     });
 
-    xdescribe('Yandex - navigation', function(){
+    describe('Yandex - navigation', function(){
 
         it('should redirect by links', async function() {
             await page.open();
@@ -112,7 +112,7 @@ describe('Yandex homepage', function() {
 
     });
 
-    describe('Yandex - change language', function() {
+    xdescribe('Yandex - change language', function() {
 
         it('Should change language', async function() {
             await page.open();

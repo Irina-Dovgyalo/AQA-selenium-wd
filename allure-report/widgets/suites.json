@@ -1,13 +1,13 @@
 {
   "total" : 3,
   "items" : [ {
-    "uid" : "a52f8251efc5e3d7e2a4542588d4fee2",
-    "name" : "Yandex homepage Yandex - change language",
+    "uid" : "31c9b24541a8edd8e0281db8b7e61628",
+    "name" : "Yandex homepage Yandex - navigation",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }
@@ -23,8 +23,8 @@
       "total" : 4
     }
   }, {
-    "uid" : "31c9b24541a8edd8e0281db8b7e61628",
-    "name" : "Yandex homepage Yandex - navigation",
+    "uid" : "a52f8251efc5e3d7e2a4542588d4fee2",
+    "name" : "Yandex homepage Yandex - change language",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

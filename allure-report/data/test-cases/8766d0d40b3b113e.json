@@ -1,0 +1,62 @@
+{
+  "uid" : "8766d0d40b3b113e",
+  "name" : "should redirect by links",
+  "fullName" : "Yandex homepage Yandex - navigation.should redirect by links",
+  "historyId" : "71b4e3ae7ba673a0a2a10f7a16d393c1",
+  "time" : {
+    "start" : 1566204564543,
+    "stop" : 1566204593809,
+    "duration" : 29266
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "44748becb2d2584e",
+      "name" : "Screenshot",
+      "source" : "44748becb2d2584e.png",
+      "type" : "image/png",
+      "size" : 71162
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Yandex homepage Yandex - navigation"
+  }, {
+    "name" : "testClass",
+    "value" : "Yandex homepage Yandex - navigation"
+  }, {
+    "name" : "testMethod",
+    "value" : "should redirect by links"
+  }, {
+    "name" : "package",
+    "value" : "Yandex homepage Yandex - navigation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8766d0d40b3b113e.json",
+  "parameterValues" : [ ]
+}

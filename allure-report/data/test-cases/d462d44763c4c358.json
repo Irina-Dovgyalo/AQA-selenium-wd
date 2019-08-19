@@ -1,11 +1,11 @@
 {
-  "uid" : "640ece3d44a719c7",
-  "name" : "should warn on invalid login",
-  "fullName" : "Yandex homepage Yandex - mail.should warn on invalid login",
-  "historyId" : "213a95dcbe0cbb231d030e248034f8d9",
+  "uid" : "d462d44763c4c358",
+  "name" : "should warn on invalid password",
+  "fullName" : "Yandex homepage Yandex - mail.should warn on invalid password",
+  "historyId" : "e531e33c10ac1dbdbfbd8f9a5fd15395",
   "time" : {
-    "start" : 1566201952874,
-    "stop" : 1566201952874,
+    "start" : 1566204564533,
+    "stop" : 1566204564533,
     "duration" : 0
   },
   "description" : "",
@@ -25,7 +25,7 @@
     "value" : "Yandex homepage Yandex - mail"
   }, {
     "name" : "testMethod",
-    "value" : "should warn on invalid login"
+    "value" : "should warn on invalid password"
   }, {
     "name" : "package",
     "value" : "Yandex homepage Yandex - mail"
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "640ece3d44a719c7.json",
+  "source" : "d462d44763c4c358.json",
   "parameterValues" : [ ]
 }

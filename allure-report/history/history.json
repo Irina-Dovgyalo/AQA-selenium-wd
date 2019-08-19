@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "640ece3d44a719c7",
+      "uid" : "801ae700de4d8552",
       "status" : "skipped",
       "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1566201952874,
-        "stop" : 1566201952874,
+        "start" : 1566204564533,
+        "stop" : 1566204564533,
         "duration" : 0
       }
     } ]
@@ -23,19 +23,18 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7a8826a8c0f14087",
-      "status" : "skipped",
-      "statusDetails" : "This test was ignored",
+      "uid" : "8766d0d40b3b113e",
+      "status" : "passed",
       "time" : {
-        "start" : 1566201952886,
-        "stop" : 1566201952886,
-        "duration" : 0
+        "start" : 1566204564543,
+        "stop" : 1566204593809,
+        "duration" : 29266
       }
     } ]
   },
@@ -49,13 +48,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "223cf834aa5bed0e",
+      "uid" : "3842567cdf49e874",
       "status" : "skipped",
       "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1566201952873,
-        "stop" : 1566201952874,
-        "duration" : 1
+        "start" : 1566204564533,
+        "stop" : 1566204564533,
+        "duration" : 0
       }
     } ]
   },
@@ -69,12 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2aa33f4224ddc7b3",
+      "uid" : "d462d44763c4c358",
       "status" : "skipped",
       "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1566201952874,
-        "stop" : 1566201952874,
+        "start" : 1566204564533,
+        "stop" : 1566204564533,
         "duration" : 0
       }
     } ]
@@ -89,33 +88,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c1e5a9ea8c195a1",
+      "uid" : "b8dec65413ff0d68",
       "status" : "skipped",
       "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1566201952871,
-        "stop" : 1566201952873,
-        "duration" : 2
+        "start" : 1566204564531,
+        "stop" : 1566204564532,
+        "duration" : 1
       }
     } ]
   },
   "fae45582e8c96debdfbf095f72a7966c" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a1829c435dd82b21",
-      "status" : "failed",
-      "statusDetails" : "Expected 'Rus' to equal 'Eng'.",
+      "uid" : "f7ff96d0648707a1",
+      "status" : "skipped",
+      "statusDetails" : "This test was ignored",
       "time" : {
-        "start" : 1566201952919,
-        "stop" : 1566201959446,
-        "duration" : 6527
+        "start" : 1566204593812,
+        "stop" : 1566204593812,
+        "duration" : 0
       }
     } ]
   }
