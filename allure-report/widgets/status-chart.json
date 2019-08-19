@@ -1,0 +1,61 @@
+[ {
+  "uid" : "a1829c435dd82b21",
+  "name" : "Should change language",
+  "time" : {
+    "start" : 1566201952919,
+    "stop" : 1566201959446,
+    "duration" : 6527
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "223cf834aa5bed0e",
+  "name" : "should return to the home page after logout",
+  "time" : {
+    "start" : 1566201952873,
+    "stop" : 1566201952874,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2aa33f4224ddc7b3",
+  "name" : "should warn on invalid password",
+  "time" : {
+    "start" : 1566201952874,
+    "stop" : 1566201952874,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c1e5a9ea8c195a1",
+  "name" : "should redirect to the login page",
+  "time" : {
+    "start" : 1566201952871,
+    "stop" : 1566201952873,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7a8826a8c0f14087",
+  "name" : "should redirect by links",
+  "time" : {
+    "start" : 1566201952886,
+    "stop" : 1566201952886,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "640ece3d44a719c7",
+  "name" : "should warn on invalid login",
+  "time" : {
+    "start" : 1566201952874,
+    "stop" : 1566201952874,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

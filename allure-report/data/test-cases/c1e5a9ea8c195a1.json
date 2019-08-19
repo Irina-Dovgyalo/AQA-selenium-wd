@@ -1,0 +1,48 @@
+{
+  "uid" : "c1e5a9ea8c195a1",
+  "name" : "should redirect to the login page",
+  "fullName" : "Yandex homepage Yandex - mail.should redirect to the login page",
+  "historyId" : "a56dd7dd38c7d62d9f898dcf8e250fb2",
+  "time" : {
+    "start" : 1566201952871,
+    "stop" : 1566201952873,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test was ignored",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Yandex homepage Yandex - mail"
+  }, {
+    "name" : "testClass",
+    "value" : "Yandex homepage Yandex - mail"
+  }, {
+    "name" : "testMethod",
+    "value" : "should redirect to the login page"
+  }, {
+    "name" : "package",
+    "value" : "Yandex homepage Yandex - mail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1e5a9ea8c195a1.json",
+  "parameterValues" : [ ]
+}

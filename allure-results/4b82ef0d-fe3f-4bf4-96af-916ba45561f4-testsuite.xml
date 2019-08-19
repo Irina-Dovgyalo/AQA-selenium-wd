@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566201952919' stop='1566201959447'>
+    <name>Yandex homepage Yandex - change language</name>
+    <title>Yandex homepage Yandex - change language</title>
+    <test-cases>
+        <test-case start='1566201952919' status='failed' stop='1566201959446'>
+            <name>Should change language</name>
+            <title>Should change language</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b86876b6-b97e-4560-ada4-64eb7ed621b3-attachment.png' type='image/png' size='277005'/>
+            </attachments>
+            <failure>
+                <message>Expected 'Rus' to equal 'Eng'.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (D:\QA\aqa-selenium-wd\tests\spec.js:127:30)
+                    at process._tickCallback (internal/process/next_tick.js:68:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
