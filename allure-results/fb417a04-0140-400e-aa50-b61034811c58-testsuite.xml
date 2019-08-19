@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1566204593812' stop='1566204593812'>
+    <name>Yandex homepage Yandex - change language</name>
+    <title>Yandex homepage Yandex - change language</title>
+    <test-cases>
+        <test-case start='1566204593812' status='pending' stop='1566204593812'>
+            <name>Should change language</name>
+            <title>Should change language</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

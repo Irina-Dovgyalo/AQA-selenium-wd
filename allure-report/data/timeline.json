@@ -3,25 +3,12 @@
   "name" : "timeline",
   "children" : [ {
     "name" : "Should change language",
-    "uid" : "a1829c435dd82b21",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1566201952919,
-      "stop" : 1566201959446,
-      "duration" : 6527
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should warn on invalid password",
-    "uid" : "2aa33f4224ddc7b3",
+    "uid" : "f7ff96d0648707a1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1566201952874,
-      "stop" : 1566201952874,
+      "start" : 1566204593812,
+      "stop" : 1566204593812,
       "duration" : 0
     },
     "flaky" : false,
@@ -29,38 +16,51 @@
     "parameters" : [ ]
   }, {
     "name" : "should redirect by links",
-    "uid" : "7a8826a8c0f14087",
+    "uid" : "8766d0d40b3b113e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "start" : 1566201952886,
-      "stop" : 1566201952886,
-      "duration" : 0
+      "start" : 1566204564543,
+      "stop" : 1566204593809,
+      "duration" : 29266
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "should redirect to the login page",
-    "uid" : "c1e5a9ea8c195a1",
+    "uid" : "b8dec65413ff0d68",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1566201952871,
-      "stop" : 1566201952873,
-      "duration" : 2
+      "start" : 1566204564531,
+      "stop" : 1566204564532,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "should warn on invalid login",
-    "uid" : "640ece3d44a719c7",
+    "uid" : "801ae700de4d8552",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1566201952874,
-      "stop" : 1566201952874,
+      "start" : 1566204564533,
+      "stop" : 1566204564533,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should warn on invalid password",
+    "uid" : "d462d44763c4c358",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1566204564533,
+      "stop" : 1566204564533,
       "duration" : 0
     },
     "flaky" : false,
@@ -68,13 +68,13 @@
     "parameters" : [ ]
   }, {
     "name" : "should return to the home page after logout",
-    "uid" : "223cf834aa5bed0e",
+    "uid" : "3842567cdf49e874",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1566201952873,
-      "stop" : 1566201952874,
-      "duration" : 1
+      "start" : 1566204564533,
+      "stop" : 1566204564533,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,

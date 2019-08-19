@@ -1,12 +1,12 @@
 {
-  "uid" : "c1e5a9ea8c195a1",
+  "uid" : "b8dec65413ff0d68",
   "name" : "should redirect to the login page",
   "fullName" : "Yandex homepage Yandex - mail.should redirect to the login page",
   "historyId" : "a56dd7dd38c7d62d9f898dcf8e250fb2",
   "time" : {
-    "start" : 1566201952871,
-    "stop" : 1566201952873,
-    "duration" : 2
+    "start" : 1566204564531,
+    "stop" : 1566204564532,
+    "duration" : 1
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -43,6 +43,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c1e5a9ea8c195a1.json",
+  "source" : "b8dec65413ff0d68.json",
   "parameterValues" : [ ]
 }
