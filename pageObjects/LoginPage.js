@@ -1,4 +1,5 @@
 let waitForVis = require('../helpers/waitForVisible');
+let allureStep = require('../logic/allureSteps');
 
 let LoginPage = function() {
 
@@ -7,18 +8,26 @@ let LoginPage = function() {
     let messageError = element(by.css('.passp-form-field__error')); // Такого аккаунта нет
 
     this.enterLogin = async function(login) {
-        await waitForVis(inputLogin);
-        await inputLogin.sendKeys(login);
+        await allureStep('Enter login', async () => {
+            await waitForVis(inputLogin);
+            await inputLogin.sendKeys(login);
+        })
     }
 
     this.clickToBtnSubmit = async function() {
-        await waitForVis(btnSubmitLogin);
-        await btnSubmitLogin.click();
+        await allureStep('Click to button Submit Login', async () => {
+            await waitForVis(btnSubmitLogin);
+            await btnSubmitLogin.click();
+        })
     }
 
     this.showMessageError = async function() {
-        await waitForVis(messageError);
-        return messageError.getText();
+        let loginError;
+        await allureStep('Show Message error', async () => {
+            await waitForVis(messageError);
+            return loginError = messageError.getText();
+        });
+        return loginError;
     }
 
 }

@@ -1,4 +1,5 @@
 let waitForVis = require('../helpers/waitForVisible');
+let allureStep = require('../logic/allureSteps');
 
 let Page = function() {
 
@@ -11,28 +12,40 @@ let Page = function() {
     let more = element(by.xpath('//body/div[4]/ul/div[2]')); 
 
     this.open = async function() {
-        browser.waitForAngularEnabled(false);
-        await browser.get('https://yandex.by/');
+        await allureStep('Open browser', async () => {
+            browser.waitForAngularEnabled(false);
+            await browser.get('https://yandex.by/');
+        })
     }
 
-    this.clickToBtnLoginEnter = async function() { 
-        await waitForVis(btnLoginEnter);
-        await btnLoginEnter.click();
+    this.clickToBtnLoginEnter = async function() {
+        await allureStep('Click to button Login', async () => {
+            await waitForVis(btnLoginEnter);
+            await btnLoginEnter.click();
+        })
     }
 
     this.clickToCheckLanguage = async function() {
-        await waitForVis(currentLanguage);
-        await currentLanguage.click();
+        await allureStep('Click to button Language', async () => {
+            await waitForVis(currentLanguage);
+            await currentLanguage.click();
+        })
     }
 
     this.clickToLanguageMore = async function() {
-        await waitForVis(more);
-        await more.click();
+        await allureStep('Click to button More', async () => {
+            await waitForVis(more);
+            await more.click();
+        })
     }
 
     this.checkCurrentLanguage = async function() {
-        await waitForVis(currentLanguage);
-        return currentLanguage.getText();
+        let text;
+        await allureStep('Show text of current language', async () => {
+            await waitForVis(currentLanguage);
+            return text = currentLanguage.getText();
+        });
+        return text;
     }
 
 };

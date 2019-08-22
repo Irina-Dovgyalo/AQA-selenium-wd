@@ -1,5 +1,6 @@
-let waitForVis = require('../helpers/waitForVisible'); //additional files
+let waitForVis = require('../helpers/waitForVisible'); 
 let returnCurrentURL = require('../helpers/returnCurrentUrl'); 
+let allureStep = require('../logic/allureSteps');
 
 let UserPage = function() {
 
@@ -7,22 +8,34 @@ let UserPage = function() {
     let btnLogout = element(by.css('#nb-5>div>div>div:nth-child(7)>a'));
 
     this.getUserName = async function() {
-        await waitForVis(user);
-        return user.getText();
+        let userName;
+        await allureStep('Get User name', async () => {
+            await waitForVis(user);
+            return userName = user.getText();
+        });
+        return userName;
     }
 
     this.clickToUserName = async function() {
-        await waitForVis(user);
-        await user.click();
+        await allureStep('Click to User name', async () => {
+            await waitForVis(user);
+            await user.click();
+        })
     }
 
     this.clickToBtnLogout = async function() {
-        await waitForVis(btnLogout);
-        await btnLogout.click();
+        await allureStep('Click to button Logout', async () => {
+            await waitForVis(btnLogout);
+            await btnLogout.click();
+        })
     }
 
     this.getCurrentURL = async function() {
-        return returnCurrentURL();
+        let currentUrl;
+        await allureStep('Show current URL', async () => {
+            return currentUrl = returnCurrentURL();
+        });
+        return currentUrl;
     }
 }
 

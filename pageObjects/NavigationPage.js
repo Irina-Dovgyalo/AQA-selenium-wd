@@ -1,5 +1,6 @@
 let waitForVis = require('../helpers/waitForVisible');
 let currentTitle = require('../helpers/returnCurrentTitle');
+let allureStep = require('../logic/allureSteps');
 
 let NavigationPage = function() {
 
@@ -11,37 +12,53 @@ let NavigationPage = function() {
     let music = element(by.linkText('Музыка'));
 
     this.clickToLinkImages = async function() {
-        await waitForVis(images);
-        await images.click();
+        await allureStep('Click to link Images', async () => {
+            await waitForVis(images);
+            await images.click();
+        })
     }
 
     this.clickToLinkNews = async function() {
-        await waitForVis(news);
-        await news.click();
+        await allureStep('CLick to link News', async () => {
+            await waitForVis(news);
+            await news.click();
+        })
     }
 
     this.clickToLinkMaps = async function() {
-        await waitForVis(maps);
-        await maps.click();
+        await allureStep('Click to link Maps', async () => {
+            await waitForVis(maps);
+            await maps.click();
+        })
     }
 
     this.clickToLinkMarket = async function() {
-        await waitForVis(market);
-        await market.click();
+        await allureStep('Click to link Market', async () => {
+            await waitForVis(market);
+            await market.click();
+        })
     }
 
     this.clickToLinkTranslate = async function() {
-        await waitForVis(translate);
-        await translate.click();
+        await allureStep('Click to link Translate', async () => {
+            await waitForVis(translate);
+            await translate.click();
+        })
     }
 
     this.clickToLinkMusic = async function() {
-        await waitForVis(music);
-        await music.click();
+        await allureStep('Click to link Music', async () => {
+            await waitForVis(music);
+            await music.click();
+        })
     }
 
     this.getCurrentTitle = async function() {
-        return currentTitle();
+        let title;
+        await allureStep('Get current title', async () => {
+            return title = currentTitle();
+        });
+        return title;
     }
 
 }

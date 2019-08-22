@@ -1,7 +1,10 @@
 let EC = protractor.ExpectedConditions;
+let allureStep = require('../logic/allureSteps');
 
 this.waitForVis = async function(element) {
-    await browser.wait(EC.visibilityOf(element), 5000);
+    await allureStep('Wait visibility of Element', async () => {
+        await browser.wait(EC.visibilityOf(element), 5000);
+    })
 }
 
 module.exports = this.waitForVis;
